@@ -5,8 +5,7 @@ module syn_fifo_tb;
     wire fifo_full, fifo_empty;
 
     reg [7 : 0] wr_data;
-    wire    [7 : 0] rd_data;
-
+    wire [7 : 0] rd_data;
 
     //Éú³É²¨ÐÎ
     initial begin
